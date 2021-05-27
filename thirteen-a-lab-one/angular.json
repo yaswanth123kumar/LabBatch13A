@@ -13,8 +13,8 @@
           "strict": true
         }
       },
-      "root": "",
-      "sourceRoot": "src",
+      "root": "libs/my-lib",
+      "sourceRoot": "libs/my-lib/src",
       "prefix": "app",
       "architect": {
         "build": {

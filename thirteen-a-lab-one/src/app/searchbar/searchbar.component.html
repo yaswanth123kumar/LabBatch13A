@@ -1,0 +1,6 @@
+<input type="search" aria-label="search" placeholder="Search books or authors" class="searchbox" autocomplete="off" (keyup)="onKey($event)">
+<div class="books" *ngFor="let product of searchproductFiltered">
+  {{ product.product_name }}
+</div>
+
+
